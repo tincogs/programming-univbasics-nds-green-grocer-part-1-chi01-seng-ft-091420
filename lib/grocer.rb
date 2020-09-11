@@ -5,9 +5,9 @@ def find_item_by_name_in_collection(name, collection)
     key.each do |item, value|
       if value == name
       selected_item = index_n
+binding.pry
       end
     end
-binding.pry
 end
 selected_item
 end
