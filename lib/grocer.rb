@@ -1,8 +1,8 @@
 require "pry"
 def find_item_by_name_in_collection(name, collection)
   selected_item = {}
-  collection.each do |key, value|
-    key.each do |item, name|
+  collection.each do |key|
+    key.each do |item, value|
 binding.pry
 end
 end
