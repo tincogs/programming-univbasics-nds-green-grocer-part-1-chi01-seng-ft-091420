@@ -5,6 +5,7 @@ def find_item_by_name_in_collection(name, collection)
     index_n.each do |item, value|
       if value == name
       selected_item = index_n
+    else selected_item = nil
       end
     end
 end
