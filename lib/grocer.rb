@@ -15,6 +15,8 @@ end
 
 def consolidate_cart(cart)
 final_cart = []
+item_count = 0
+
 cart.each do |index_n|
 binding.pry
 end
