@@ -17,7 +17,7 @@ def consolidate_cart(cart)
 final_cart = []
 item_count = 0
 while item_count < cart.length
-
+ if final_cart[]
 item_count +=1
 end
 cart.each do |index_n|
