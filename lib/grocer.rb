@@ -31,7 +31,7 @@ while item_count < cart.length
  end
 item_count +=1
 end
-binding.pry
+return final_cart
 end
 end
 
