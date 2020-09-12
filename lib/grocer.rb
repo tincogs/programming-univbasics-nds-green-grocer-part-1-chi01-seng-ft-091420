@@ -18,7 +18,7 @@ final_cart = []
 item_count = 0
 while item_count < cart.length
  new_cart_item = find_item_by_name_in_collection(cart[item_count][:item])
- if final_cart.has? 
+ if final_cart.include? 
 item_count +=1
 end
 binding.pry
