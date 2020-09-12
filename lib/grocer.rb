@@ -17,7 +17,8 @@ def consolidate_cart(cart)
 final_cart = []
 item_count = 0
 while item_count < cart.length
- if final_cart[:item]
+ new_cart_item = find_item_by_name_in_collection(cart[item_count][:item])
+ if final_cart.has? 
 item_count +=1
 end
 binding.pry
